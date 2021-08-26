@@ -1,0 +1,274 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-1 {
+	
+	padding: 14px 0;
+}
+.name{
+    cursor: pointer;
+}
+.name h1 {
+	font-family: 'Fredoka One', cursive;
+	margin-bottom: 0;
+	font-size: 53px;
+	color: #353b48;
+}
+.search-bar{
+    padding-left: 180px;
+}
+.search-bar input {
+	margin-top: 14px;
+}
+ .btn-1 {
+	margin-top: 14px;
+	background-color: #353b48;
+    color: white;
+	border: 1px solid transparent;
+}
+
+.btn-1:hover{
+    color:#353b48 ;
+    background-color: #fff;
+    border: 1px solid #55585f;
+    transition: .3s;
+    box-shadow: 0 0 5px rgba(2, 2, 2, 0.432);
+}
+
+.login{
+    cursor: pointer;
+}
+.login span{
+    margin-right: 10px;
+}
+.login p {
+	margin-top: 19px;
+	color: #353b48;
+	font-size: 18px;
+}
+
+
+/*header-2*/
+
+.header-2{
+    background-color: #353b48;
+    padding-bottom:0 ;
+}
+.categories{
+    background-color: #b91c1c;
+}
+
+.categories h3 {
+	margin-bottom: 0;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: white;
+}
+
+.categories span {
+	margin-left: 7px;
+	font-size: 23px;
+    font-weight: 400;
+}
+
+.menu{}
+.menu ul{
+	margin-bottom: 0;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 0px 16px;
+	display: inline-block;
+	line-height: 64px;
+	font-size: 15px;
+
+	/* margin-bottom: 0; */
+}
+
+
+ .menu ul li a:hover{
+	text-decoration: underline;
+	transition:.4s;
+}
+
+/*banner*/
+
+.banner{
+	background-color: #f7f8fa;
+	padding-bottom: 50px;
+}
+.menu-3 ul li::after {
+	content: "\f105";
+	font-weight: 500;
+	font-family: "Font Awesome 5 pro";
+	position: absolute;
+	top: 9px;
+	right: 30px;
+	font-size: 20px;
+}
+.menu-3 ul{
+	margin-bottom: 0;
+	padding-left: 0;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.315);
+}
+.menu-3 ul li {
+	list-style: none;
+	background-color: #fff;
+	/* padding: -22px 0px; */
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	height: 50px;
+}
+.menu-3 ul li a {
+	text-decoration: none;
+	display: block;
+	line-height: 50px;
+	font-size: 15px;
+	padding-left: 50px;
+	color: #130f40;
+}
+
+.menu-3 ul li a:hover{
+	background-color: #ddd;
+	transition: .1s;
+}
+
+
+/*brand*/
+.brand{
+	background-color: #f7f8fa;
+	padding-bottom: 50px;
+}
+.brand img{
+	max-width: 100%;
+}
+
+.brand h2 {
+	font-size: 27px;
+	display: block;
+	margin-bottom: 25px;
+    color: #353b48;
+
+}
+.brand p{
+	color: #353b48;
+	font-size: 17px;
+	padding-right: 15px;
+}
+
+.brand-1{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.061);
+	overflow: hidden;
+	transition: .3s;
+}
+
+.brand-1:hover{
+	transform: scale(1.05);
+}
+
+.travel{
+	background-color: #f7f8fa;
+	padding-bottom: 50px;
+}
+
+.travel h2{
+	font-size: 27px;
+	display: block;
+	margin-bottom: 25px;
+    color: #353b48;
+
+}
+.travel p{
+    color: #353b48;
+	font-size: 17px;
+	padding-right: 15px;
+}
+.btn-11{
+
+	padding-left: 341px;
+	
+}
+.tour {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.061);
+	overflow: hidden;	
+	cursor: pointer;
+}
+.tour img{
+	width: 100%;
+	transition: .3s;
+}
+
+.tour img:hover{
+	transform: scale(1.04);
+}
+
+.tour p{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.tour h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-decoration: 1px line-through;
+}
+.tour h2{
+	font-size: 20px;
+	margin-bottom: 0;
+	font-weight: 400;
+
+}
+
+.tour-1{
+	padding-bottom: 15px;
+	
+}
+
+.mens-fashion{
+	cursor: pointer;
+	background-color: #f7f8fa;
+}
+
+.mens-fashion h2{
+	font-size: 27px;
+	display: block;
+	margin-bottom: 25px;
+    color: #353b48;
+}
+.men{
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.061);
+
+}
+.men img{
+	width: 100%;
+	transition: .3s;
+
+}
+.men img:hover{
+	transform: scale(1.05);
+}
+.men-1 p {
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+.men-1 h3 {
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: line-through;
+}
+.men-1 h2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
